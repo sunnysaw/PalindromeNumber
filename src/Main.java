@@ -4,10 +4,10 @@ Question : Write a program to reverse a given number and check whether the numbe
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        int  temp,temp2 = 0,temp3;
+        int a,temp,temp2 = 0,temp3;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number");
-        int a = sc.nextInt();
+        a = sc.nextInt();
         temp3 = a;
         System.out.println("Firstly, printing the reverse number :");
         while (a > 0){
